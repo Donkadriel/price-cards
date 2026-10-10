@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+header {
+  text-align: center;
+
+  h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333;
+
+  }
+}
+.intro {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #6258dc;
+  }
+
+.intro-2 {
+    font-size: 1rem;
+    color: #666;
+    padding-top: 10px;
+  }
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plan-card {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+}
+.plan-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.plan-description {
+  font-size: 1rem;
+  color: #666;
+  padding-top: 10px;
+}
+.plan-price {
+  font-size: 1.2rem;
+  color: grey;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+span {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: black;
+}
+.plan-features {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.plan-features > li {
+  padding: 5px 0;
+}
+
+.choose-btn,
+.selected-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.choose-btn {
+  border: 1px solid #ccc;
+  color: black;
+}
+.selected-btn {
+  background-color: #6258dc;
+  border: none;
+  color: white;
+}
+
+.popular-badge {
+    width: 100%;
+  p {
+    background-color: #6258dc;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+  }
+}
+.popular {
+  border: 2px solid #6258dc;
+  box-shadow: 0px 5px 10px #6258dc;
+  width: 280px;
+}
